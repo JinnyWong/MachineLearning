@@ -14,9 +14,12 @@ Machine Learning (COMP130172) course of Fudan University, Fall 2023. Instructed 
 ## Assignment 3: Support Vector Machines
 
 - Based on [MNIST dataset](https://www.kaggle.com/datasets/hojjatk/mnist-dataset/data), use SVM classifier to classify the handwritten digits.
+- Requirements:
+  - Try different kernels, and find the best hyperparameter settings (including kernel parameters and the regularization parameter) for each of the kernel types
+  - Visualize SVM boundary
+  - Try other methods to classify moist dataset, such as least squares with regularization / Fisher discriminant analysis (with kernels) / Perceptron (with kernels) / logistic regression / MLP-NN with two different error functions.
 
 ## Assignment 4: Support Vector Regression
-
 - Using support vector regression to predict housing prices. The data is available on [Kaggle](https://www.kaggle.com/vikrishnan/boston-house-prices)
 
 ## Assignment 5: MultiLayer Perceptron
