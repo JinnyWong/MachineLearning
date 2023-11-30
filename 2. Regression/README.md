@@ -1,4 +1,4 @@
-# 机器学习 课程报告1: kNN算法
+# 机器学习 课程报告2: 回归模型
 
 黄婧媛 21300246010
 
@@ -185,9 +185,9 @@ mae_lasso = mean_absolute_error(Y_test, Y_pred_lasso)
 
 在这三个回归模型里，都使用了sklearn里的`mean_squared_error`和`mean_absolute_error`作为评估模型性能的指标。`mean_squared_error` 指的是均方误差（MSE）的函数，它衡量模型预测值与实际观测值之间的平方差的平均值；`mean_absolute_error` 指的是平均绝对误差（MAE）的函数，它衡量模型预测值与实际观测值之间的绝对差的平均值。
 
+
+
 ### 4.2 结果
-
-三个回归模型的评估结果和对比如下图所示：
+模型的评估结果和预测结果如下图所示：
 ![](evaluation.PNG)
-
 ![](comparison.png)
